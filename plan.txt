@@ -1,0 +1,31 @@
+HTML
+1. Create HTML boiler plate, assign css and JS links and add title, heading and a little description.
+2. create an unordered list item and in that list we will add list items using JS.
+3. create a button to check the order of the list.
+
+JAVASCRIPT
+1. declare variables for check-button and unordered draggable list.
+2. create an array of names in order of richest people.
+3. We create an empty array called listItems in which we will store our list items
+4. We will initialize a variable called dragStartIndex which will keep track of index.
+5. We will then create a function called CreateList() which will create list items into DOM
+
+Scrambling the names
+1. add a map method to an array and create an object with value as the name and sort as a random number.
+2. sort the array with sort number from highest to lowest.
+3. add a map method again to just retrieve the value of just name.
+
+--- We Styled Our Web Page ---
+
+Drag and Drop API
+1. We added addEventListeners() function into our createList() function 
+2. we declared variables for all draggables and dragList items
+3. we added dragstart event listener on draggables and rest of drag events into lists
+4. we will get dragStartIndex from the item we are dragging and dragEndIndex from the item we are dropping and we will swap the indexes
+
+Check order
+1. We created an event listener for check button and added a function called check order
+2. on check Order function we first got listItem from listItems Array and then gained each of the person's name
+3. we matched the person's name with the original array and checked if its true or not.
+4. If it not true we added wrong class to list item and if true, we removed wrong class and added right class
+
